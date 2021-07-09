@@ -3,19 +3,26 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './Component/Home/Home';
+import About from './Component/About/About';
+import NotFound from './Component/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route exact to ='/'>
+          <Route exact path ='/'>
             <Home></Home>
           </Route>
-          <Route to ='/home'>
+          <Route path ='/home'>
             <Home></Home>
+          </Route>
+          <Route path ='/about'>
+            <About></About>
+          </Route>
+          <Route path ='*'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>

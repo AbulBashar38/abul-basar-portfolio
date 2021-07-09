@@ -8,19 +8,19 @@ const Sidebar = () => {
                 <h3 className='mb-4'>Abul Basar</h3>
                 <ul className='list-unstyled mb-5'>
                     <li className='my-2'>
-                        <Link style={{color:'#bbb'}} className='text-decoration-none'>Home</Link>
+                        <Link to='/home' style={{color:'#bbb'}} className='text-decoration-none'>Home</Link>
                     </li>
                     <li className='my-2'>
-                        <Link style={{color:'#bbb'}} className='text-decoration-none '>About</Link>
+                        <Link to='/about' style={{color:'#bbb'}} className='text-decoration-none '>About</Link>
                     </li>
                     <li className='my-2'>
-                        <Link style={{color:'#bbb'}} className='text-decoration-none '>Portfolio</Link>
+                        <Link to='./portfolio' style={{color:'#bbb'}} className='text-decoration-none '>Portfolio</Link>
                     </li>
                     <li className='my-2'>
-                        <Link style={{color:'#bbb'}} className='text-decoration-none '>Blogs</Link>
+                        <Link to='blogs' style={{color:'#bbb'}} className='text-decoration-none '>Blogs</Link>
                     </li>
                     <li className='my-2'>
-                        <Link style={{color:'#bbb'}} className='text-decoration-none '>Contract</Link>
+                        <Link to='/contract' style={{color:'#bbb'}} className='text-decoration-none '>Contract</Link>
                     </li>
                 </ul>
                 <div>
