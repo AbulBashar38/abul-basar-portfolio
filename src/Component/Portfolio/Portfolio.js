@@ -1,6 +1,6 @@
 import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
-import Carousel from './Carousel';
+import ProjectDetails from './ProjectDetails';
 import homePic from '../../image/home.png';
 import shopPic from '../../image/shopImg.png';
 import adminPic from '../../image/adminPage1.png';
@@ -43,7 +43,7 @@ const Portfolio = () => {
                     <h4>My Portfolio</h4>
                     <div>
                         {
-                            PortfolioData.map(portfolio => <Carousel data={portfolio}></Carousel>)
+                            PortfolioData.map(portfolio => <ProjectDetails data={portfolio}></ProjectDetails>)
                         }
                     </div>
                 </div>
