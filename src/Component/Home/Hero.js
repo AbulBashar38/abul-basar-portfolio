@@ -2,7 +2,7 @@ import React from 'react';
 import profilePic from '../../image/forWebProfile.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
-import { faFacebook, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 const Hero = () => {
     return (
         <main>
@@ -22,6 +22,9 @@ const Hero = () => {
                         </Link>
                         <Link className='text-decoration-none text-white me-3 fs-4'>
                             <FontAwesomeIcon icon={faTwitter} />
+                        </Link>
+                        <Link className='text-decoration-none text-white me-3 fs-4'>
+                            <FontAwesomeIcon icon={faLinkedin} />
                         </Link>
                         <button className="btn btn-outline-secondary fw-bold">MY RESUME</button>
                     </div>

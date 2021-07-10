@@ -14,7 +14,7 @@ const Sidebar = () => {
                         <Link to='/about' style={{color:'#bbb'}} className='text-decoration-none '>About</Link>
                     </li>
                     <li className='my-2'>
-                        <Link to='./portfolio' style={{color:'#bbb'}} className='text-decoration-none '>Portfolio</Link>
+                        <Link to='/portfolio' style={{color:'#bbb'}} className='text-decoration-none '>Portfolio</Link>
                     </li>
                     <li className='my-2'>
                         <Link to='blogs' style={{color:'#bbb'}} className='text-decoration-none '>Blogs</Link>

@@ -1,3 +1,5 @@
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const Introduction = () => {
@@ -11,7 +13,7 @@ const Introduction = () => {
                             I am a Ful-struck web developer. I work with MERN stack but I always try to learn new things. I started to learn web Development from Programming Hero. From there I did 11 project assignment which are based on HTML,CSS,JavaScript, React.js,Bootstrap,Material ui, React-Bootstrap, Node.js,Express.js, Mongodb e.t.c
                         </small>
                         <br />
-                        <button className="btn btn-outline-secondary fw-bold mt-3">LinkedIn</button>
+                        <button className="btn btn-outline-secondary fw-bold mt-3"> <FontAwesomeIcon className='me-2 fs-5 text-white' icon={faLinkedin} />LinkedIn</button>
                     </div>
                     <div className="col-md-6">
                         <div className="row">

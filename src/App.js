@@ -7,6 +7,7 @@ import {
 import Home from './Component/Home/Home';
 import About from './Component/About/About';
 import NotFound from './Component/NotFound/NotFound';
+import Portfolio from './Component/Portfolio/Portfolio';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path ='/about'>
             <About></About>
+          </Route>
+          <Route path ='/portfolio'>
+            <Portfolio></Portfolio>
           </Route>
           <Route path ='*'>
             <NotFound></NotFound>
