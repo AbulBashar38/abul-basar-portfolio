@@ -7,6 +7,9 @@ import adminPic from '../../image/adminPage1.png';
 import GhorAdminPic from '../../image/adminPage.png';
 import GhorHomePic from '../../image/homePage.png';
 import GhorAddProductPic from '../../image/addProduct.png';
+import riderHomePic from '../../image/riderHome.png';
+import riderDetails from '../../image/riderDetails.png';
+import riderDestinations from '../../image/riderDestination.png'
 const Portfolio = () => {
     const PortfolioData = [
         {
@@ -30,6 +33,17 @@ const Portfolio = () => {
             githubLink: '',
             features: ['All product Show in Home page','Firebase Google Authentication for every page','Before order can go in the check out page','user can see orders and can cancel order.','Admin can delete and add product from admin panel.','Data loading spinner'],
             technology: ['React JS', 'React Router', 'html5', 'css3', 'material ui', 'javascript es6', 'node', 'mongodb']
+        },
+        {
+            projectName: 'Sohoj Rider',
+            image1: riderHomePic,
+            image2: riderDestinations,
+            image3: riderDetails,
+            description: "The name of this web site is 'SOHOJ RIDERS' that means an easy transport system. In the home page of the web side you can see some transport ride named BIKE,TRAIN,CAR,BUS. If you click any button of the ride you will see that web side wants to verified you. For that you have to create an account account. if you want to create your account by your google account it is possible in this web site. For that just click the 'login with Google' button. After verified you can choose you destination. Thank you...",
+            liveLink: '',
+            githubLink: '',
+            features: ['Bike, Train, Car, Bus 4 option in the home page.','Click any one and redirect to login page which is created by React router.','Create new user, login existence user and login by google option are available. All are developed by Firebase','Select destination place and date.','show hiring details'],
+            technology: ['React JS', 'React Router', 'html5', 'css3', 'material ui', 'javascript es6']
         }
     ]
     return (

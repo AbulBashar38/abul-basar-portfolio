@@ -2,38 +2,29 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-import { Carousel } from 'react-bootstrap';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css"
+import "swiper/components/navigation/navigation.min.css"
+import SwiperCore, {
+    Autoplay, Pagination, Navigation
+} from 'swiper/core';
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 const ProjectDetails = (prams) => {
     const { projectName, image1, image2, image3, description, liveLink, githubLink, features, technology } = prams.data
-    
+
     return (
         <section className='mb-5'>
             <h2 className='fw-bold text-center'>{projectName}</h2>
             <div className='mt-4 d-flex justify-content-center'>
                 <div style={{ border: '6px solid black', borderRadius: '14px', boxShadow: '2px 5px 18px white' }} className='w-75'>
-                    <Carousel>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100 rounded-3"
-                                src={image1}
-                                alt="First slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100 rounded-3"
-                                src={image2}
-                                alt="Second slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100 rounded-3"
-                                src={image3}
-                                alt="Third slide"
-                            />
-                        </Carousel.Item>
-                    </Carousel>
+                    <Swiper slidesPerView={1} spaceBetween={30} loop={true} autoplay={{delay:5000}} pagination={{
+                        "clickable": true
+                    }} navigation={true} className="mySwiper">
+                        <SwiperSlide><img src={image1} alt="" className="img-fluid rounded-3" /></SwiperSlide>
+                        <SwiperSlide><img src={image2} alt="" className="img-fluid rounded-3" /></SwiperSlide>
+                        <SwiperSlide><img src={image3} alt="" className="img-fluid rounded-3" /></SwiperSlide>
+                    </Swiper>
                 </div>
             </div>
             <div className='mt-4'>
