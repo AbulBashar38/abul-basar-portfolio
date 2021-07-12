@@ -17,10 +17,7 @@ const Sidebar = () => {
                         <Link to='/portfolio' style={{color:'#bbb'}} className='text-decoration-none '>Portfolio</Link>
                     </li>
                     <li className='my-2'>
-                        <Link to='blogs' style={{color:'#bbb'}} className='text-decoration-none '>Blogs</Link>
-                    </li>
-                    <li className='my-2'>
-                        <Link to='/contract' style={{color:'#bbb'}} className='text-decoration-none '>Contract</Link>
+                        <Link to='/contact' style={{color:'#bbb'}} className='text-decoration-none '>Contract</Link>
                     </li>
                 </ul>
                 <div>
