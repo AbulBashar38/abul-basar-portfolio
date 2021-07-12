@@ -23,7 +23,7 @@ const Hero = () => {
                         <a href='https://www.linkedin.com/in/abulbashar5403/' target='_blank' rel="noopener noreferrer" className='text-decoration-none text-white me-3 fs-4'>
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a href='https://drive.google.com/file/d/1L4nPZuW52jpjsYY7tskt1BObx3jfwewJ/view?usp=sharing' target='_blank' rel="noopener noreferrer" className="btn btn-outline-secondary fw-bold">MY RESUME</a>
+                        <a href='https://drive.google.com/file/d/1TCpY0LkYDTEJvx9tCZKqQbhwwuW5PHJt/view?usp=sharing' target='_blank' rel="noopener noreferrer" className="btn btn-outline-secondary fw-bold">MY RESUME</a>
                     </div>
                 </div>
             </div>
