@@ -1,14 +1,13 @@
 import React from 'react';
 import profilePic from '../../image/forWebProfile.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 import { faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 const Hero = () => {
     return (
         <main>
             <div className="row">
                 <div className="col-md-5">
-                    <img style={{marginTop:'20px'}} src={profilePic} alt="" className="img-fluid" />
+                    <img style={{ marginTop: '20px' }} src={profilePic} alt="" className="img-fluid" />
                 </div>
                 <div className="col-md-7">
                     <h1 className='fw-bold'>Hey, My name is <br /> ABUL BASAR</h1>
