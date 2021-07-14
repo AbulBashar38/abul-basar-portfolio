@@ -1,4 +1,4 @@
-.hero-part{
+.main-part{
     height: 100vh;
 }
 @media screen and (max-width:1080px) {
@@ -7,5 +7,28 @@
     }
     .navHeader{
         display: block !important
+    }
+    .main-part{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+    
+@media screen and (min-width:1080px) {
+    .main-part{
+        width: calc(100% - 20rem);
+        position: relative;
+        top: 0;
+        left: 20rem;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 575px) {
+    .short-description{
+        text-align: center;
+        margin-bottom: 2rem;
     }
 }

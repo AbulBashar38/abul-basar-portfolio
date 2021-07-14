@@ -1,0 +1,12 @@
+.skills-div{
+    width: 25rem;
+}
+
+@media screen and (max-width: 576px) {
+    .about-banner img{
+        height: 10rem !important
+    }
+    .skills-div{
+        width: 11rem;
+    }
+}

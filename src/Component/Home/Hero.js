@@ -6,10 +6,10 @@ const Hero = () => {
     return (
         <main>
             <div className="row">
-                <div className="col-md-5">
+                <div className="col-md-5 col-sm-5">
                     <img style={{ marginTop: '20px' }} src={profilePic} alt="" className="img-fluid" />
                 </div>
-                <div className="col-md-7">
+                <div className="col-md-7 col-sm-7 short-description">
                     <h1 className='fw-bold'>Hey, My name is <br /> ABUL BASAR</h1>
                     <p style={{ fontStyle: 'italic', color: '#bbb' }} className='my-4'>I am a Web Developer. Basically I love to work in Front-end but I have knowledge about Node.js and Mongodb. I work in MERN stuck actually and developed 4 Project with the MERN stuck.</p>
                     <div>

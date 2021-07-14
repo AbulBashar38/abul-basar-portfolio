@@ -13,6 +13,7 @@ import riderDestinations from '../../image/riderDestination.png'
 import footballHome from '../../image/footballHome.png'
 import footballClub from '../../image/footballClub.png'
 import footballDetails from '../../image/footballDetails.png'
+import NavHeader from '../Navbar/NavHeader';
 const Portfolio = () => {
     const PortfolioData = [
         {
@@ -61,7 +62,10 @@ const Portfolio = () => {
         }
     ]
     return (
-        <main>
+        <main className='container-fluid'>
+            <div className="navHeader d-none">
+                <NavHeader></NavHeader>
+            </div>
             <div className="row">
                 <div className="col-md-4">
                     <Sidebar></Sidebar>

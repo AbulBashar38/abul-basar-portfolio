@@ -8,23 +8,23 @@ const NavHeader = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
-                    <Link className="navbar-brand fw-bold">Abul Basar</Link>
+                    <Link to='/home' className="navbar-brand fw-bold">Abul Basar</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item mx-1">
-                                <Link className="nav-link active" aria-current="page"><FontAwesomeIcon icon={faHome} /></Link>
+                                <Link to='/home' className="nav-link active" aria-current="page"><FontAwesomeIcon icon={faHome} /></Link>
                             </li>
                             <li className="nav-item mx-1">
-                                <Link className="nav-link active"><FontAwesomeIcon icon={faUserTie} /></Link>
+                                <Link to='/about' className="nav-link active"><FontAwesomeIcon icon={faUserTie} /></Link>
                             </li>
                             <li className="nav-item mx-1">
-                                <Link className="nav-link active"><FontAwesomeIcon icon={faBriefcase} /></Link>
+                                <Link to='/portfolio' className="nav-link active"><FontAwesomeIcon icon={faBriefcase} /></Link>
                             </li>
                             <li className="nav-item mx-1">
-                                <Link className="nav-link active"><FontAwesomeIcon icon={faEnvelope} /></Link>
+                                <Link to='/contact' className="nav-link active"><FontAwesomeIcon icon={faEnvelope} /></Link>
                             </li>
                         </ul>
                     </div>
