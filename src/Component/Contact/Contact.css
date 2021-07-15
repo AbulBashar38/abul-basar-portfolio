@@ -1,0 +1,13 @@
+.contact-form{
+    width: 35rem;
+}
+@media screen and (max-width: 700px) {
+    .contact-form{
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact-form{
+        width: 16rem;
+    }
+}

@@ -1,17 +1,21 @@
 import React from 'react';
+import NavHeader from '../Navbar/NavHeader';
 import Sidebar from '../Sidebar/Sidebar';
-
+import './Contact.css'
 const Contact = () => {
     return (
-        <div>
-            <div className="row">
-                <div className="col-md-4">
-                    <Sidebar></Sidebar>
-                </div>
-                <div className="col-md-8">
+        <main>
+            <div className="navHeader d-none">
+                <NavHeader></NavHeader>
+            </div>
+            <div className="sidebar-main">
+                <Sidebar></Sidebar>
+            </div>
+            <div className="main-part mb-3">
+                <div>
                     <h2 className='text-center fw-bold mt-5'>Contact with me</h2>
                     <div className='d-flex justify-content-center mt-4'>
-                        <form style={{ width: '35rem' }}>
+                        <form className='contact-form'>
                             <div className="mb-3">
                                 <label htmlFor="nameInput" className="form-label">Name</label>
                                 <input type='text' className="form-control" id="nameInput" />
@@ -29,7 +33,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     );
 };
 
