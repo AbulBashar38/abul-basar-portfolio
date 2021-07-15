@@ -1,0 +1,20 @@
+.swiper-style{
+    border: 6px solid black;
+    border-radius: 14px;
+    box-shadow: 2px 5px 18px white;
+    width: 22rem;
+}
+.techno-style{
+    width: 30rem;
+}
+.swiper-main{
+    width: 100%;
+}
+@media screen and (max-width: 575px) {
+    .swiper-style{
+        width: 12rem;
+    }
+    .techno-style{
+        width: 11rem;
+    }
+}

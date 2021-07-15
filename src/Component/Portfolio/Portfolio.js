@@ -35,7 +35,7 @@ const Portfolio = () => {
             description: "This website is basically a daily market. All kinds of products are shown on the home page of the website. Clicking on the buy now button of the product you want to buy will ask the buyer to log in and then take you to the check out page. There will be a description of the product then click on the check out button to confirm the order and take you to the next page. There you will see a list of what products the buyer has ordered. You can cancel the order from there. In the admin panel, you can delete products from Manage Products, add new products from Ad Products.",
             liveLink: 'https://ghor-bazar.web.app/',
             githubLink: 'https://github.com/AbulBashar38/ghor-bazar-client',
-            features: ['All product Show in Home page','Firebase Google Authentication for every page','Before order can go in the check out page','user can see orders and can cancel order.','Admin can delete and add product from admin panel.','Data loading spinner'],
+            features: ['All product Show in Home page', 'Firebase Google Authentication for every page', 'Before order can go in the check out page', 'user can see orders and can cancel order.', 'Admin can delete and add product from admin panel.', 'Data loading spinner'],
             technology: ['React JS', 'React Router', 'html5', 'css3', 'material ui', 'javascript es6', 'node', 'mongodb']
         },
         {
@@ -46,7 +46,7 @@ const Portfolio = () => {
             description: "The name of this web site is 'SOHOJ RIDERS' that means an easy transport system. In the home page of the web side you can see some transport ride named BIKE,TRAIN,CAR,BUS. If you click any button of the ride you will see that web side wants to verified you. For that you have to create an account account. if you want to create your account by your google account it is possible in this web site. For that just click the 'login with Google' button. After verified you can choose you destination. Thank you...",
             liveLink: 'https://sohoj-riders.web.app/',
             githubLink: 'https://github.com/AbulBashar38/sohoj-rider-client',
-            features: ['Bike, Train, Car, Bus 4 option in the home page.','Click any one and redirect to login page which is created by React router.','Create new user, login existence user and login by google option are available. All are developed by Firebase','Select destination place and date.','show hiring details'],
+            features: ['Bike, Train, Car, Bus 4 option in the home page.', 'Click any one and redirect to login page which is created by React router.', 'Create new user, login existence user and login by google option are available. All are developed by Firebase', 'Select destination place and date.', 'show hiring details'],
             technology: ['React JS', 'React Router', 'html5', 'css3', 'material ui', 'javascript es6']
         },
         {
@@ -57,7 +57,7 @@ const Portfolio = () => {
             description: "This react project is about some football club. You can know about all information of some Europe football club from this project. when you click button you can see a banner first fo the club. This will changes dynamically and this project is a responsive so you can use it on your mobile comfortable.",
             liveLink: 'https://frosty-poincare-bfe3fe.netlify.app/',
             githubLink: 'https://github.com/AbulBashar38/football-club-informar',
-            features: ['Showing All Club name and logo in a card element of React JS.','Showing All details of an club by clicking Explore button.','Use API for showing Data.','Use Fontawesome.'],
+            features: ['Showing All Club name and logo in a card element of React JS.', 'Showing All details of an club by clicking Explore button.', 'Use API for showing Data.', 'Use Fontawesome.'],
             technology: ['React JS', 'API', 'html5', 'css3', 'Bootstrap', 'javascript es6']
         }
     ]
@@ -66,11 +66,12 @@ const Portfolio = () => {
             <div className="navHeader d-none">
                 <NavHeader></NavHeader>
             </div>
-            <div className="row">
-                <div className="col-md-4">
-                    <Sidebar></Sidebar>
-                </div>
-                <div className="col-md-8">
+
+            <div className="sidebar-main">
+                <Sidebar></Sidebar>
+            </div>
+            <div className="main-part" style={{ height: 'auto' }}>
+                <div>
                     <p className='mt-5'><span className='badge bg-secondary'>PORTFOLIO</span></p>
                     <h4>My Portfolio</h4>
                     <div>
@@ -80,6 +81,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+
         </main>
     );
 };
