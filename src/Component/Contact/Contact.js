@@ -12,7 +12,10 @@ const Contact = () => {
                 <Sidebar></Sidebar>
             </div>
             <div className="main-part mb-3">
-                <div>
+                <div data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                     <h2 className='text-center fw-bold mt-5'>Contact with me</h2>
                     <div className='d-flex justify-content-center mt-4'>
                         <form className='contact-form'>

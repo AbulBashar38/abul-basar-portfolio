@@ -17,7 +17,10 @@ const About = () => {
             </div>
 
             <div className="main-part" style={{ height: 'auto' }}>
-                <div>
+                <div data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                     <div className='mt-5 pt-3 w-100 d-flex justify-content-center align-items-center about-banner'>
                         <img src={profileBG} style={{ height: '23rem' }} className='img-fluid' alt="" />
                     </div>

@@ -71,7 +71,10 @@ const Portfolio = () => {
                 <Sidebar></Sidebar>
             </div>
             <div className="main-part" style={{ height: 'auto' }}>
-                <div>
+                <div data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                     <p className='mt-5'><span className='badge bg-secondary'>PORTFOLIO</span></p>
                     <h4>My Portfolio</h4>
                     <div>
