@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../image/forWebProfile.png";
+import profilePic from "../../image/basar-profile-WB.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -10,24 +10,22 @@ const Hero = () => {
   return (
     <main>
       <div className="row">
-        <div className="col-md-5 col-sm-5">
-          <img
-            style={{ marginTop: "20px" }}
-            src={profilePic}
-            alt=""
-            className="img-fluid"
-          />
+        <div className="col-md-5 col-sm-5 d-flex justify-content-center align-items-center ">
+          <img src={profilePic} alt="" className="img-fluid hero-profile-pic" />
         </div>
         <div className="col-md-7 col-sm-7 short-description">
           <h1 className="fw-bold">
             Hey, My name is <br /> ABUL BASAR
           </h1>
           <p style={{ fontStyle: "italic", color: "#bbb" }} className="my-4">
-            I am a Web Developer. Basically I love to work in Front-end but I
-            have knowledge about Node.js and Mongodb. I work in MERN stuck
-            actually and developed 4 Project with the MERN stuck.
+            Proven software developer and Front End Team Leader with a track
+            record of leading teams at SeaClub, a Canadian startup. Founding
+            member and lead developer at JS Encoder, a Bangladesh-based software
+            company. Actively seeking a challenging role in a dynamic startup
+            environment to apply my expertise in software development and
+            leadership, driving innovation and growth.
           </p>
-          <div>
+          <div className="hero-content-part">
             <a
               href="https://www.facebook.com/abulbashar38/"
               target="_blank"
@@ -53,7 +51,7 @@ const Hero = () => {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1MQs55280FCUEwvAXwuqKM-iDy1kcgTXG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1kAum7QAid3VQODH7yh9ZDdeyAj57ou2_/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-secondary fw-bold"

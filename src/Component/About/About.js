@@ -1,11 +1,11 @@
 import React from "react";
-import profileBG from "../../image/profileBG.jpg";
+import profileBG from "../../image/abulBasarImage.png";
 import Introduction from "./Introduction";
 import Skills from "./Skills";
 import "./About.css";
 const About = () => {
   return (
-    <main className="container-fluid" id="about">
+    <main className="container-fluid"  id="about" style={{marginTop:'5em'}} >
       <div className="main-part" style={{ height: "auto" }}>
         <div
           data-aos="fade-right"
