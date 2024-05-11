@@ -110,7 +110,7 @@ const Skills = () => {
         <div className="skills-div">
           <li className="mt-4">Operating Systems:</li>
           <h5 className="d-inline">
-            <span className="badge bg-secondary my-1 mx-2">MAC OS</span>
+            <span className="badge bg-secondary my-1 mx-2">macOS</span>
           </h5>
         </div>
 
@@ -118,11 +118,16 @@ const Skills = () => {
 
         <div className="skills-div">
           <h5 className="d-inline">
-            <span className="badge bg-secondary my-1 mx-2">Windows 10</span>
+            <span className="badge bg-secondary my-1 mx-2">VS Code</span>
           </h5>
           <h5 className="d-inline">
             <span className="badge bg-secondary my-1 mx-2">
-              Adobe Photoshop
+              Git
+            </span>
+          </h5>
+          <h5 className="d-inline">
+            <span className="badge bg-secondary my-1 mx-2">
+              Github Desktop
             </span>
           </h5>
         </div>
