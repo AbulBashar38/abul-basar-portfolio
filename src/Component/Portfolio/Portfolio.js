@@ -12,8 +12,40 @@ import riderDestinations from "../../image/riderDestination.png";
 import footballHome from "../../image/footballHome.png";
 import footballClub from "../../image/footballClub.png";
 import footballDetails from "../../image/footballDetails.png";
+import seaHome from "../../image/seaHome.png";
+import seaTeam from "../../image/seaTeam.png";
+import profile from "../../image/profile.png";
 const Portfolio = () => {
   const PortfolioData = [
+    {
+      projectName: "Seaclub",
+      image1: seaHome,
+      image2: profile,
+      image3: seaTeam,
+      description:
+        "As a Frontend Team Leader at Seaclub®, I had the privilege of leading a talented team in building a revolutionary platform that is transforming the way Web3 companies partner with each other. Our platform, built using Next.js, Redux, Redux Async Thunk, RTK Query, and Tailwind CSS, provides a decentralized, non-custodial, and message-encrypted environment for outsourcing services.",
+      liveLink: "https://seaclub.io/",
+      githubLink: "",
+      features: [
+        `Engaging Landing Page: An immersive landing page that encapsulates the essence of our company.`,
+        "Streamlined Onboarding: A seamless onboarding process for both service providers and clients.",
+        "Personalized Profile Pages: Customizable profile pages for service providers and clients to showcase their unique offerings.",
+        "Project Posting: A platform for service providers and clients to post and manage their projects effectively.",
+        "Interactive Chat System: A robust chat system facilitating clear and efficient communication.",
+        "Project Display: A comprehensive display of all projects from service providers and clients.",
+      ],
+      technology: [
+        "Next.js",
+        "Redux Toolkit",
+        "Redux Async Thunk",
+        "RTK Query",
+        "Framer Motion",
+        "Tailwind CSS",
+        "html5",
+        "css3",
+        "javascript es6",
+      ],
+    },
     {
       projectName: "Sneaky Care",
       image1: homePic,
