@@ -51,7 +51,7 @@ const Hero = () => {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1kAum7QAid3VQODH7yh9ZDdeyAj57ou2_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1zEbs69iG03s872BYAdoOVmltu7a7izww/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-secondary fw-bold"
