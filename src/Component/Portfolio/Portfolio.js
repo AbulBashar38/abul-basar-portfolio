@@ -1,20 +1,23 @@
 import React from "react";
-import ProjectDetails from "./ProjectDetails";
-import homePic from "../../image/home.png";
-import shopPic from "../../image/shopImg.png";
-import adminPic from "../../image/adminPage1.png";
-import GhorAdminPic from "../../image/adminPage.png";
-import GhorHomePic from "../../image/homePage.png";
 import GhorAddProductPic from "../../image/addProduct.png";
-import riderHomePic from "../../image/riderHome.png";
-import riderDetails from "../../image/riderDetails.png";
-import riderDestinations from "../../image/riderDestination.png";
-import footballHome from "../../image/footballHome.png";
+import GhorAdminPic from "../../image/adminPage.png";
+import adminPic from "../../image/adminPage1.png";
 import footballClub from "../../image/footballClub.png";
 import footballDetails from "../../image/footballDetails.png";
+import footballHome from "../../image/footballHome.png";
+import homePic from "../../image/home.png";
+import GhorHomePic from "../../image/homePage.png";
+import profile from "../../image/profile.png";
+import riderDestinations from "../../image/riderDestination.png";
+import riderDetails from "../../image/riderDetails.png";
+import riderHomePic from "../../image/riderHome.png";
+import schedule1 from "../../image/schedule1.png";
+import schedule2 from "../../image/schedule2.png";
+import schedule3 from "../../image/schedule3.png";
 import seaHome from "../../image/seaHome.png";
 import seaTeam from "../../image/seaTeam.png";
-import profile from "../../image/profile.png";
+import shopPic from "../../image/shopImg.png";
+import ProjectDetails from "./ProjectDetails";
 const Portfolio = () => {
   const PortfolioData = [
     {
@@ -44,6 +47,33 @@ const Portfolio = () => {
         "html5",
         "css3",
         "javascript es6",
+      ],
+    },
+    {
+      projectName: "Schedule Buddy",
+      image1: schedule1,
+      image2: schedule2,
+      image3: schedule3,
+      description:
+        "Schedule Buddy is a booking platform that allows users to schedule appointments with each other, manage their bookings, and track appointment requests. Built with React, Redux, and Firebase, the platform ensures a seamless and responsive user experience.",
+      liveLink: "https://schedule-buddy-app.web.app/sign-up",
+      githubLink: "https://github.com/AbulBashar38/schedule-buddy",
+      features: [
+        `User Authentication: Secure login and registration using Firebase Auth.`,
+        "User Directory & Search: View all registered users and search by name or email.",
+        "Booking System: Users can request and manage appointments with others.",
+        "Personal Booking Requests: View, cancel, and filter bookings by status, upcoming, and past appointments.",
+        "Incoming Booking Requests: Track and manage appointment requests received from other users.",
+      ],
+      technology: [
+        "React.js",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Redux Toolkit",
+        "RTK Query",
+        "Material UI",
+        "Firebase (Auth & Storage)",
+        "Docker",
       ],
     },
     {

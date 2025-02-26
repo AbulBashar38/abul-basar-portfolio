@@ -1,8 +1,8 @@
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import intoVideo from "../../videos/introduction.mp4";
 import experience from "../../videos/experience.mp4";
+import intoVideo from "../../videos/introduction.mp4";
 import objective from "../../videos/objective.mp4";
 const Introduction = () => {
   const handleVideoPlay = (videoName) => {
@@ -23,14 +23,41 @@ const Introduction = () => {
         <div className="row mt-3">
           <div className="col-md-6 col-sm-6 col-12">
             <small style={{ color: "#bbb" }} className="my-4 fst-italic">
-              I started my career as a Front-end Developer at Js Encoder in
-              December 2022. I worked here on many project types. They included
-              e-commerce, hotel management SaaS products, and admin dashboard
-              templates. I achieved the Employee of the Year award from Js
-              Encoder in 2023. Besides that, I was leading an international team
-              at Seaclub. At Seaclub, we launched their landing page, MVP, and
-              also the Alpha version of their platform .
+              I began my career as a Front-end Developer at JS Encoder in
+              December 2022, working on a variety of projects, including
+              e-commerce platforms, hotel management SaaS products, and admin
+              dashboard templates. In recognition of my contributions, I was
+              honored as Employee of the Year in 2023. Alongside this, I led an
+              international team at Seaclub, where we successfully launched the
+              landing page, MVP, and Alpha version of their Web3 marketplace
+              platform.
             </small>
+            <br />
+            <br />
+            <small style={{ color: "#bbb" }} className="my-4 fst-italic">
+              Currently, I am a Senior Frontend Developer at Akbar Tech
+              Consultancy, a growing software firm providing global software
+              solutions. I have contributed to building a dashboard application
+              for a photography company and an AI-integrated health web app for
+              a UK-based client, allowing users to receive AI-driven medicine
+              recommendations based on their health conditions.
+            </small>
+            <br />
+            <br />
+            <small style={{ color: "#bbb" }} className="my-4 fst-italic">
+              In addition, I serve as the Frontend Team Leader for Bangladesh
+              Archive, an open-source initiative preserving the July 2024
+              Movement's historical records. Under the leadership of Samim
+              Hasan, a team of 300+ contributors—including frontend, backend,
+              DevOps, data collection, and verification teams—has collected and
+              verified 24,000+ records from Facebook, YouTube, and Twitter.
+              Supported by leading software companies like Wafilife Solutions
+              and Olive IT, and senior developers such as Fayzul Karim, we built
+              a data collection application, an admin dashboard for
+              verification, and the main archive platform, ensuring historical
+              authenticity.
+            </small>
+
             <br />
             <a
               href="https://www.linkedin.com/in/abulbashar5403/"
@@ -48,19 +75,6 @@ const Introduction = () => {
           </div>
           <div className="col-md-6 col-sm-6 col-12">
             <p>
-              Birthday:{" "}
-              <span style={{ color: "#bbb" }} className="fst-italic ms-2">
-                {" "}
-                28 January 2003
-              </span>
-            </p>
-            <p>
-              Age:
-              <span style={{ color: "#bbb" }} className="fst-italic ms-2">
-                21
-              </span>
-            </p>
-            <p>
               Address:
               <span style={{ color: "#bbb" }} className="fst-italic ms-2">
                 Kalindi, Keranigonj, Dhaka, Bangladesh
@@ -69,7 +83,7 @@ const Introduction = () => {
             <p>
               Study:
               <span style={{ color: "#bbb" }} className="fst-italic ms-2">
-                Programming Hero, Shyamoli Ideal Polytechnic Institute
+                Southeast University, Shyamoli Ideal Polytechnic Institute
               </span>
             </p>
           </div>

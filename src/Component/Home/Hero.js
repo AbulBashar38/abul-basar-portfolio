@@ -1,11 +1,11 @@
-import React from "react";
-import profilePic from "../../image/basar-profile-WB.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import profilePic from "../../image/basar-profile-WB.png";
 const Hero = () => {
   return (
     <main>
@@ -18,12 +18,15 @@ const Hero = () => {
             Hey, My name is <br /> ABUL BASAR
           </h1>
           <p style={{ fontStyle: "italic", color: "#bbb" }} className="my-4">
-            Proven software developer and Front End Team Leader with a track
-            record of leading teams at SeaClub, a Canadian startup. Founding
-            member and lead developer at JS Encoder, a Bangladesh-based software
-            company. Actively seeking a challenging role in a dynamic startup
-            environment to apply my expertise in software development and
-            leadership, driving innovation and growth.
+            Senior Frontend Developer at Akbar Tech Consultancy with a strong
+            background in leading frontend teams and building scalable web
+            applications. Currently serving as the Frontend Team Leader for
+            Bangladesh Archive, an open-source project with 300+ contributors.
+            Previously led teams at SeaClub and JS Encoder, driving innovation
+            in startups and software development. Passionate about crafting
+            high-performance user interfaces, mentoring developers, and
+            contributing to impactful projects in a dynamic, growth-oriented
+            environment.
           </p>
           <div className="hero-content-part">
             <a
@@ -51,7 +54,7 @@ const Hero = () => {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1zEbs69iG03s872BYAdoOVmltu7a7izww/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yIPkgjSNRAgFK3QRMMVPFoJzctdxoKf_/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-secondary fw-bold"
